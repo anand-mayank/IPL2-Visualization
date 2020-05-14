@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="IPL visualization">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <title>
+        IPL visualization
+    </title>
+</head>
+
+<body>
+    <h1>IPL Dataset Visualization</h1>
+    <label>Select Year</label>
+    <select id="work"  >
+        <option value="">Select Year</option>
+        <option value="2008">2008</option>
+        <option value="2009">2009</option>
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+    </select>
+    <button onclick="myFunction()">Submit</button>
+
+
+    <div id="Ipl-bowlers-economy" class="chart-container" style="min-width: 310px; height: 500px; margin: 0 auto"></div>
+    <div id="matches-played-per-year" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <div id="matches-won-by-each-team" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <div id="extra-runs-conceded" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <div id="economical-bowlers" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <div id="StrikeRate" style="min-width: 310px; height: 400px; margin: 0 auto"></div>    
+
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
+    <script src="./app.js"></script>
+</body>
+</html>
